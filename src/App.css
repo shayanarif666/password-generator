@@ -1,0 +1,28 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.password-generator {
+  width: 500px;
+  padding: 1rem;
+}
+.password-generator h2 {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.password-generator input {
+  border-radius: 0%;
+}
+.password-generator input:focus {
+  box-shadow: none !important;
+}
+.password-generator .input-range {
+  width: 35%;
+}
+.btn-primary {
+  border-radius: 0%;
+  font-weight: 600;
+  padding: .3rem .7rem !important;
+}
